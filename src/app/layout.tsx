@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Klee_One } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const kleeOne = Klee_One({ weight: "600", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Dango the World portfolio",
@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="jp">
-      <body className={inter.className}>{children}</body>
+      <body className={kleeOne.className}>{children}</body>
     </html>
   );
 }

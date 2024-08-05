@@ -12,7 +12,7 @@ export const Skills = () => {
         flexWrap={"wrap"}
         justifyContent={"center"}
         w={"100%"}
-        gap={"10px"}
+        gap={"16px"}
       >
         {skills.map((skill: skillInterface) => (
           <Image
