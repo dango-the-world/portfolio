@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Klee_One } from "next/font/google";
+import "../../styles/global.css";
 
 const kleeOne = Klee_One({ weight: "600", subsets: ["latin"] });
 

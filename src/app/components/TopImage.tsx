@@ -6,6 +6,7 @@ export const TopImage = () => {
     <>
       <Box
         h={"100vh"}
+        m={"0"}
         backgroundImage={"url('dango_icon02.jpg')"}
         backgroundSize={"cover"}
         backgroundPosition={"50% 30%"}
@@ -23,7 +24,7 @@ export const TopImage = () => {
         >
           <Box
             position={"absolute"}
-            top={"25%"}
+            top={"30%"}
             left={"23%"}
             w={"200px"}
             p={"5px"}
